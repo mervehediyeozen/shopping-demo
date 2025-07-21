@@ -182,8 +182,8 @@ function Navbar() {
        
           <li>
           
-          <Button variant={btnVariant}  size="xs"   bg={btnBg}color="black" _hover={{ bg: "softNav2.300" }} className={styles.btn} onClick={toggleMenu}> 
-          <FontAwesomeIcon icon={faBars} className={styles.iconStyle} size='md' />
+          <Button variant={btnVariant}  size="xs"   bg={btnBg}color="black" _hover={{ bg: "softNav2.300" }}  onClick={toggleMenu}> 
+          <FontAwesomeIcon icon={faBars} size='md' />
               </Button>
                {menuVisible && (
       <>
@@ -232,11 +232,11 @@ function Navbar() {
   <>
    <li>
       {isFavProduct && (
-        <Flex >
-          <Box justifyItems="center" justifyContent="center" justifySelf="center">
+        <Flex  justifyContent="center" >
+          <Box justifyItems="center" justifySelf="center">
         <Link to="/FavProducts">
-        <Button variant={btnVariant}  size="xs" bg={btnBg}color="black" _hover={{ bg: "softNav2.300" }} >
-          <FontAwesomeIcon icon={faHeart} style={{ marginRight: "6px" }} /> 
+        <Button variant={btnVariant} size="xs"bg={btnBg}color="black" _hover={{ bg: "softNav2.300" }}  justify="center">
+          <FontAwesomeIcon icon={faHeart}   /> 
         </Button>
         </Link>
         </Box>
