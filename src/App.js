@@ -4,7 +4,6 @@ import OrdersPage from './pages/OrdersPage';
 import OrdersDetail from './pages/OrdersDetail';
 import Signin from './pages/Signin';
 import Products from './pages/Products';
-import './App.css';
 import AdressPage from './pages/AdressPage';
 import ShowClient from './pages/ShowClients';
 import SubscribedClient from './pages/SubscribedClient';
