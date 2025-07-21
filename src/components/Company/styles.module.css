@@ -1,0 +1,58 @@
+
+.companies {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.compHead {
+    text-align: center;
+    color: rgb(118, 121, 126);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: inherit;
+    display: flex;
+    
+}
+
+.iconStyle {
+        margin-left: 10px; /* İkon ile metin arasına boşluk ekler */
+    
+    
+}
+ 
+ 
+.imgList {
+    flex-direction: column;
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+ }
+
+
+.imgList img {
+    width: inherit;
+}
+
+.cards {
+   
+    width: 170px;
+    border-bottom: 2px solid rgb(84, 83, 83);
+    border-right: 2px solid rgb(84, 83, 83);
+    background-color: rgb(255, 255, 255);
+ }
+
+.cards h6 { 
+  color: rgb(67, 73, 82);
+  border-bottom: 1px solid black; 
+  text-align: center;
+  
+
+}
+
+.cards p {
+    font-size: 11px;
+    text-align: center;
+}
+

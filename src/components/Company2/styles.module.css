@@ -1,0 +1,41 @@
+
+.back {
+    width: 100%;
+   
+    background-image: url(''); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+.headCompany img {
+    padding: 0px;
+    width: 100%;
+    height: 100px;
+  
+
+}
+.pCompany {
+    text-align: center;
+    background-color: rgb(228, 222, 211);
+    height: 30px;
+    border-bottom: 1px black solid;
+}
+
+
+.pCompany a {
+    
+    color: rgb(41, 40, 39);
+    text-decoration: none;
+}
+
+.pCompany a:hover {
+    color: rgb(0, 0, 0);
+}
+
+
+.all {
+    padding: 0px;
+    background-color: black;
+}

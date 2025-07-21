@@ -1,0 +1,27 @@
+
+
+.menuList{
+  background-color: rgb(178, 169, 158);
+    margin-top: 0;
+    padding: 8px;
+    list-style-type: none;
+    background-color:inherit;
+    flex-direction: column;
+  }
+  
+  .menuList li  {
+    color: black;
+    padding: 8px;
+    list-style: none;
+    
+  }
+  .menuList li a {
+    color: black;
+    
+    
+  }
+  
+  .menuList li a:hover {
+    background-color: #9c9a89;
+    color: white;
+  }
