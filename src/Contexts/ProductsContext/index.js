@@ -35,7 +35,35 @@ import home5 from '../../images/home5.jfif'
 import home6 from '../../images/home6.jfif'
 import ph1 from '../../images/comph1.jpg'
 import ph2 from '../../images/comph2.jpg'
-
+import ph4 from '../../images/ph4.jfif'
+import ph5 from '../../images/ph5.jfif'
+import ph3  from '../../images/ph3.jfif'
+import ph8 from '../../images/ph8.jfif'
+import ph9  from '../../images/ph9.webp'
+import ph10  from '../../images/ph10.webp'
+import ph6 from '../../images/ph6.jfif'
+import ph11 from '../../images/ph11.jfif'
+import ph12 from '../../images/ph12.jfif'
+import ph13 from '../../images/ph13.jfif'
+import ph14 from '../../images/ph14.jfif'
+import ph15 from '../../images/ph15.jpg'
+import ph16 from '../../images/ph16.jfif'
+import ph17 from '../../images/ph17.jfif'
+import ph18 from '../../images/ph18.jfif'
+import ph19 from '../../images/ph19.jfif'
+import ph20 from '../../images/ph20.jpg'
+import ph21 from '../../images/ph21.jpg'
+import ph22 from '../../images/ph22.jfif'
+import ph24 from '../../images/ph24.webp'
+import ph23 from '../../images/ph23.jfif'
+import ph25 from '../../images/ph25.webp'
+import ph26 from '../../images/ph26.webp'
+import ph27 from '../../images/ph27.jpg'
+import ph28 from '../../images/ph28.jfif'
+import ph30 from '../../images/ph30.jfif'
+import ph29  from  '../../images/ph29.jpg'
+import ph32 from '../../images/ph32.jfif'
+import ph31 from '../../images/ph31.jfif'
 
 
 
@@ -59,15 +87,18 @@ export const ProductsProvider = ({ children }) => {
      
       image: woman1,
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim" , photo: woman1 , },
+        comm1:{question:"rengi fotoğraftaki gibi mi", answer:"evet, efendim."},
+        comm2:{question:"en fazla ne kadar siparis edebiliyoruz", answer:"stoklarımız sınırlıdır,efendim." },
+        comm3 :{question:"yazısız hali var mı?" , answer:"hayır, efendim."},
+        comm4 :{question:"stoklar yenilenecek mi" , answer:"tabii ki efendim."},
+        comm5 :{question:"iyi aksamlar , small bedenı kalmamıs." , answer:"iyi akşamlar efendim,stoklar yenilenir"},
       },
     feedbacks: {
   photoComments: [
     
-   { name: "ayse.k", comment: "Çok şık ve kaliteli, bayıldım!", star: 5, photo: ph1 },
-  { name: "mehmet23", comment: "Rengi görseldeki gibi değildi, iade ettim.", star: 1, photo: ph2 },
-  { name: "elifcan", comment: "Kumaşı yumuşak, tam beden oldu. Tavsiye ederim.", star: 4, photo: ph1 },
+   { name: "ayse.k", comment: "Çok şık ve kaliteli, bayıldım!", star: 5, photo: ph4 },
+  { name: "mehmet23", comment: "Rengi görseldeki gibi değildi, iade ettim.", star: 1, photo: ph5 },
+ 
     
   ],
   comments: [
@@ -93,12 +124,7 @@ export const ProductsProvider = ({ children }) => {
         fr: "Maison moderne au cœur de Los Angeles historique",
         es: "Casa moderna en el corazón de Los Ángeles histórico",
       },
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
+    
       description : {
         en: "Material: Cotton Color: White Stock is limited. You can order maximum 3 of the same product.",
         tr:"Materyal: Pamuk Renk: Kırmızı Stok sınırldır. Aynı üründen en fazla 3 tane sipariş veribilir.",
@@ -129,8 +155,7 @@ export const ProductsProvider = ({ children }) => {
   photoComments: [
    { name: "murat.y", comment: "Biraz geç geldi ama ürün güzel.", star: 3, photo: ph1 },
   { name: "zeynep_aktas", comment: "Deseni beklediğimden daha güzel!", star: 5, photo: ph2 },
-  { name: "kaan34", comment: "Kalıbı çok dar, hiç memnun kalmadım.", star: 1, photo: ph1 },
-  { name: "melike_d", comment: "Ürün harika paketlenmişti, teşekkürler.", star: 5, photo: ph2 },
+  { name: "kaan34", comment: "Kalıbı çok dar, hiç memnun kalmadım.", star: 1, photo: ph3 },
   ],
   comments: [
    { name: "tamer.aslan", comment: "Kargo biraz geç geldi ama sorun olmadı.", star: 3 },
@@ -143,8 +168,10 @@ export const ProductsProvider = ({ children }) => {
       brand:"bershka",
       material:"cotton",
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim"},
+        comm1:{question:"rengi fotoğraftaki gibi canlı mı", answer:"evet,efendim"},
+        comm2:{question:"beden kalmamıs", answer:"stok yenilenir,efendim"},
+        comm2:{question:"beden yokk", answer:"stok yenilenir,efendim"},
+        comm2:{question:"small beden yok mu?", answer:"stok yenilenir,efendim"},
       },
       wideness:"normal",
       style:"spor",
@@ -160,12 +187,8 @@ export const ProductsProvider = ({ children }) => {
         fr: "T-shirt Rouge",
         es: "Camiseta Roja"
       },
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
+ 
+  
       description : {
         en: "Material: Cotton Color: Red Stock is limited. You can order maximum 5 of the same product.",
         tr:"Materyal: Pamuk Renk: Kırmızı Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
@@ -194,9 +217,9 @@ export const ProductsProvider = ({ children }) => {
       },
        feedbacks: {
   photoComments: [
- { name: "buraktt", comment: "Bir yıkamada rengi soldu. Hayal kırıklığı.", star: 2, photo: ph1 },
-  { name: "deniz.er", comment: "Fotoğraftakinden daha kaliteli, çok beğendim.", star: 5, photo: ph2 },
-  { name: "yagmur.s", comment: "Normal, ne çok iyi ne kötü.", star: 3, photo: ph1 },
+ { name: "buraktt", comment: "Bir yıkamada rengi soldu. Hayal kırıklığı.", star: 2, photo: ph6 },
+  { name: "deniz.er", comment: "Fotoğraftakinden daha kaliteli, çok beğendim.", star: 5, photo: ph8 },
+  { name: "yagmur.s", comment: "Normal, ne çok iyi ne kötü.", star: 3, photo: ph9 },
   ],
   comments: [
   { name: "kenan.sari", comment: "İlk yıkamada biraz çekti, dikkat edin.", star: 2 },
@@ -211,19 +234,16 @@ export const ProductsProvider = ({ children }) => {
       color:"white",
       image: woman3,
       comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim"},
+        comm1:{question:"ürününüz görseldeki gibi mi", answer:"evet ,efendim"},
+        comm2:{question:"gömlek kuması nedir", answer:"saten efendim"},
+        comm2:{question:" kuması?", answer:"saten efendim"},
+        comm2:{question:"terleten kumaş mdıır?", answer:"hayır , efendim"},
       },
       kind:"woman",
-      rating: 3.5,
-      price : 140  ,
+      rating: 4.9,
+      price : 134  ,
       type:"tunic",
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
+    
       title: {
         en: "White Satin Shirt",
         tr: "Beyaz Saten Gömlek",
@@ -231,17 +251,17 @@ export const ProductsProvider = ({ children }) => {
         es: "Camisa de satén blanca"
       },
       description : {
-        en: "Material: Cotton Color: Red Stock is limited. You can order maximum 5 of the same product.",
-        tr:"Materyal: Pamuk Renk: Kırmızı Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
-        fr: "Matière : Coton Couleur : Rouge Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
-        es:"Material: Algodón Color: Rojo Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
+        en: "Material: Cotton Color: White Stock is limited. You can order maximum 5 of the same product.",
+        tr:"Materyal: Pamuk Renk: Beyaz Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
+        fr: "Matière : Coton Couleur : Blanc Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
+        es:"Material: Algodón Color: Blanco Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
   
       },
       imageAlt: {
-        en: "Red Tshirt",
-        tr: "Kırmızı Tshirt",
-        fr: "Vue arrière avec piscine",
-        es: "Vista trasera con piscina"
+        en: "White Satin Shirt",
+        tr: "Beyaz Saten Gömlek",
+        fr: "Chemise en satin blanc",
+        es: "Camisa de satén blanca"
       },
 
     },
@@ -250,8 +270,8 @@ export const ProductsProvider = ({ children }) => {
       fav: 1013,
       feedbacks: {
   photoComments: [
-    { name: "hasan.k", comment: "Dikişleri sağlam değil, kenarları açılmıştı.", star: 1, photo: ph1 },
-  { name: "fatma_oz", comment: "Çok rahat bir ürün, sürekli giyiyorum.", star: 5, photo: ph2 },
+
+  { name: "fatma_oz", comment: "Çok rahat bir ürün, sürekli giyiyorum.", star: 5, photo: ph10 },
   ],
   comments: [
 { name: "furkan.altun", comment: "Ne iyi ne kötü, ortalama diyebilirim.", star: 3 },
@@ -269,8 +289,9 @@ export const ProductsProvider = ({ children }) => {
         
       },
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim"},
+        comm1:{question:"uzunluğu nasıl", answer:"bedeninize göre değişir,efendim"},
+        comm2:{question:"rengi fotoğraftaki gibi mi", answer:"evet,efendim"},
+          comm2:{question:"stok kalmamış", answer:"yenilenir,efendim"},
       },
       color:"white",
       wideness:"wide",
@@ -278,21 +299,15 @@ export const ProductsProvider = ({ children }) => {
       material:"pongee",
       style:"bohem",
       price : 500  ,
-      type:"shirt",
+      type:"tunic",
       rating: 8.5,
       image: woman4,
       kind:"woman",
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
       title: {
-        en: "Woman Tshirt",
-        tr: "Tshirt-Kadın",
-        fr: "Woman Tshirt",
-        es: "Camiseta"
+        en: "White Dress",
+        tr: "Beyaz Elbise",
+        fr: "robe blanche",
+        es: "vestido blanco"
       },
       description : {
         en: "Material: Cotton Color: White Stock is limited. You can order maximum 2 of the same product.",
@@ -302,10 +317,10 @@ export const ProductsProvider = ({ children }) => {
 
       },
       imageAlt: {
-        en: "Woman-Shirt",
-        tr: "Kadın-Tshirt",
-        fr: "Vue arrière de la maison moderne avec piscine",
-        es: "Vista trasera de la casa moderna con piscina"
+           en: "White Dress",
+        tr: "Beyaz Elbise",
+        fr: "robe blanche",
+        es: "vestido blanco",
       },
  
       
@@ -315,9 +330,8 @@ export const ProductsProvider = ({ children }) => {
       fav: 8050,
        feedbacks: {
   photoComments: [
-    { name: "cem.t", comment: "Beklentimi karşılamadı, iade ettim.", star: 2, photo: ph1 },
-  { name: "ozge.karakas", comment: "Hediye olarak almıştım, çok beğenildi.", star: 5, photo: ph2 },
-  { name: "mustafa.ay", comment: "Fiyatına göre idare eder.", star: 3, photo: ph1 },
+    { name: "cem.t", comment: "Beklentimi karşılamadı, iade ettim.", star: 2, photo: ph11},
+
   ],
   comments: [
    { name: "gizem.aksoy", comment: "Beklentimi pek karşılamadı.", star: 2 },
@@ -348,21 +362,16 @@ export const ProductsProvider = ({ children }) => {
       color:"white",
       rating: 4.5,
       kind:"woman",
-      price : 250  ,
+      price : 90  ,
       type:"shirt",
 
       title: {
-        en: "Woman Lewis-Tshirt",
-        tr: "Lewis Tshirt-Kadın",
-        fr: "Maison moderne au cœur de Los Angeles historique",
-        es: "Casa moderna en el corazón de Los Ángeles histórico",
+        en: "Woman-shirt",
+        tr: "Tshirt-Kadın",
+        fr: "T-shirt - Femme",
+        es: "Camiseta-Mujer",
       },
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
+
       description : {
         en: "Material: Cotton Color: White Stock is limited. You can order maximum 3 of the same product.",
         tr:"Materyal: Pamuk Renk: Kırmızı Stok sınırldır. Aynı üründen en fazla 3 tane sipariş veribilir.",
@@ -372,10 +381,10 @@ export const ProductsProvider = ({ children }) => {
       },
       imageAlt: {
         
-        en: "Woman-Shirt",
-        tr: "Kadın-Gömlek",
-        fr: "Vue arrière de la maison moderne avec piscine",
-        es: "Vista trasera de la casa moderna con piscina"
+        en: "Woman-shirt",
+        tr: "Tshirt-Kadın",
+        fr: "T-shirt - Femme",
+        es: "Camiseta-Mujer",
       },
 
     },
@@ -384,11 +393,11 @@ export const ProductsProvider = ({ children }) => {
       fav: 1110,
        feedbacks: {
   photoComments: [
-    { name: "selin.sel", comment: "Tam beden, kaliteli kumaş. Tavsiye ederim.", star: 4, photo: "" },
-  { name: "arda_ylz", comment: "Kargoda sorun yaşadım ama ürün güzel.", star: 3, photo: "" },
-  { name: "irem.ak", comment: "Bayıldım! Renkler canlı ve şık.", star: 5, photo: "" },
-  { name: "halil.c", comment: "Dikiş hataları vardı, hiç memnun kalmadım.", star: 1, photo: "" },
-  { name: "nur.ergn", comment: "Her şey kusursuzdu. Teşekkürler!", star: 5, photo: "" },
+    { name: "selin.sel", comment: "Tam beden, kaliteli kumaş. Tavsiye ederim.", star: 4, photo: ph12},
+  { name: "arda_ylz", comment: "Kargoda sorun yaşadım ama ürün güzel.", star: 3, photo: ph13 },
+  { name: "irem.ak", comment: "Bayıldım! Renkler canlı ve şık.", star: 5, photo: ph14 },
+  { name: "halil.c", comment: "Dikiş hataları vardı, hiç memnun kalmadım.", star: 1, photo: ph15 },
+
   ],
   comments: [
     { name: "enes.tok", comment: "Tam aradığım gibi bir ürün, teşekkürler!", star: 5 },
@@ -406,8 +415,10 @@ export const ProductsProvider = ({ children }) => {
         
       },
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim"},
+        comm1:{question:"stok yeniletin lütfen!", answer:"yenilenecektir,efendim."},
+        comm2:{question:"çok sevdim ama stok yok..", answer:"en kısa zamanda yenilenir,efendim."},
+        comm3:{question:"büyük beden gelecek mi?", answer:"bu üründe büyük beden yok efendim"},
+        comm4:{question:"kampanya gelecek mi ürün hakkında", answer:"takipte kalın lütfen."},
       },
       brand:"bershka",
       material:"cotton",
@@ -416,32 +427,27 @@ export const ProductsProvider = ({ children }) => {
       color:"red",
       image: woman6,
       kind:"woman",
-       rating: 8.5,
-      price : 250  ,
-      type:"shirt",
+       rating: 3.5,
+      price : 272  ,
+      type:"pants",
       title: {
-        en: "Woman Red Tshirt",
-        tr: "Kırmızı Tshirt ",
-        fr: "T-shirt Rouge",
-        es: "Camiseta Roja"
+        en: "Beige pants-woman",
+        tr: "Krem pantolon-kadın ",
+        fr: "Pantalon beige-femme",
+        es: "Pantalón beige-mujer"
       },
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
+
       description : {
-        en: "Material: Cotton Color: Red Stock is limited. You can order maximum 5 of the same product.",
-        tr:"Materyal: Pamuk Renk: Kırmızı Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
-        fr: "Matière : Coton Couleur : Rouge Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
-        es:"Material: Algodón Color: Rojo Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
+        en: "Material: Cotton Color: Beige tock is limited. You can order maximum 5 of the same product.",
+        tr:"Materyal: Pamuk Renk: Krem Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
+        fr: "Matière : Coton Couleur : Beige Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
+        es:"Material: Algodón Color: Beige Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
       },
       imageAlt: {
-        en: "Woman-Shirt",
-        tr: "Kadın-Tshirt",
-        fr: "Vue arrière de la maison moderne avec piscine",
-        es: "Vista trasera de la casa moderna con piscina"
+          en: "Beige pants-woman",
+        tr: "Krem pantolon-kadın ",
+        fr: "Pantalon beige-femme",
+        es: "Pantalón beige-mujer"
       },
  
     },
@@ -451,8 +457,9 @@ export const ProductsProvider = ({ children }) => {
       fav: 9110,
       feedbacks: {
   photoComments: [
- { name: "okan.dmr", comment: "Görseldeki kadar kaliteli durmuyor.", star: 2, photo: ph2 },
-  { name: "esra.n", comment: "Boyutu tam, kumaşı güzel.", star: 4, photo: ph1 },
+ { name: "okan.dmr", comment: "Görseldeki kadar kaliteli durmuyor.", star: 2, photo: ph18 },
+  { name: "okan.dmr", comment: "Görseldeki kadar kaliteli durmuyor.", star: 2, photo: ph16 },
+  { name: "esra.n", comment: "Boyutu tam, kumaşı güzel.", star: 4, photo: ph17 },
   ],
   comments: [
    { name: "betul.guler", comment: "Daha iyi bekliyordum açıkçası.", star: 2 },
@@ -469,54 +476,50 @@ export const ProductsProvider = ({ children }) => {
         
       },
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim"},
+        comm1:{question:"bedenler yenilenecek mi?", answer:"evet, efendim"},
+        comm2:{question:"ürün çok dar mı?", answer:"hayr,efendim "},
+        comm3:{question:"görsldeki gibi durmuyor fotoğraflı yorumlar", answer:"kalıba göre değişir,efendim."},
+        comm4:{question:"bedenler yenilenecek mi?", answer:"evet, efendim"},
       },
       brand:"koton",
       material:"pongee",
       style:"casual",
-      wideness:"wide",
+      wideness:"tight",
       color:"white",
       image: woman7,
       kind:"woman",
       rating: 3.5,
       price : 140  ,
       type:"tunic",
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
+  
       title: {
-        en: "White Satin Shirt",
-        tr: "Beyaz Saten Gömlek",
-        fr: "Chemise en satin blanc",
-        es: "Camisa de satén blanca"
+        en: "Black-Dress",
+        tr: "Siyah-Elbise",
+        fr: "Robe noire",
+        es: "Vestido negro"
       },
       description : {
-        en: "Material: Cotton Color: Red Stock is limited. You can order maximum 5 of the same product.",
-        tr:"Materyal: Pamuk Renk: Kırmızı Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
-        fr: "Matière : Coton Couleur : Rouge Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
-        es:"Material: Algodón Color: Rojo Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
+        en: "Material: Cotton Color: Black Stock is limited. You can order maximum 5 of the same product.",
+        tr:"Materyal: Pamuk Renk: Siyah Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
+        fr: "Matière : Coton Couleur : Noire Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
+        es:"Material: Algodón Color: Negro. Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
   
       },
       imageAlt: {
-        en: "Red Tshirt",
-        tr: "Kırmızı Tshirt",
-        fr: "Vue arrière avec piscine",
-        es: "Vista trasera con piscina"
+        en: "Black-Dress",
+        tr: "Siyah-Elbise",
+        fr: "Robe noire",
+        es: "Vestido negro"
       },
     
     },
     pr8: {
       id: 8,
-      fav: 8240,
+      fav: 4340,
         feedbacks: {
   photoComments: [
-    { name: "tugce_u", comment: "Kesimi farklı duruyor, iade ettim.", star: 2, photo: ph2 },
-  { name: "emre_aydn", comment: "Bu fiyata bu kalite mükemmel!", star: 5, photo: ph1 },
-  { name: "sevgi.ak", comment: "Renk solması oldu, biraz hayal kırıklığı.", star: 2, photo: ph1 },
+    { name: "tugce_u", comment: "Kesimi farklı duruyor, iade ettim.", star: 2, photo: ph19 },
+
   ],
   comments: [
  { name: "betul.guler", comment: "Daha iyi bekliyordum açıkçası.", star: 2 },
@@ -534,8 +537,10 @@ export const ProductsProvider = ({ children }) => {
         
       },
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim"},
+        comm1:{question:"acdc yazısı büyük mü", answer:"görseldeki gibi,efendim"},
+        comm2:{question:"iyi akşamlar,ürün görseldeki gibi mi?", answer:"evet,efendim"},
+           comm3:{question:"acdc yazısı nasıl", answer:"görseldeki gibi,efendim"},
+        comm4:{question:"ürün yenilenir mi?", answer:"evet,efendim"},
       },
       color:"black",
       wideness:"normal",
@@ -544,33 +549,28 @@ export const ProductsProvider = ({ children }) => {
       style:"casual",
       price : 320  ,
       type:"shirt",
-      rating: 8.5,
+      rating: 2.5,
       image: woman8,
       kind:"woman",
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
+     
       title: {
         en: "Woman Tshirt",
         tr: "Tshirt-Kadın",
-        fr: "Woman Tshirt",
-        es: "Camiseta"
+        fr: "t-shirt femme",
+        es: "camiseta de mujer"
       },
       description : {
-        en: "Material: Cotton Color: White Stock is limited. You can order maximum 2 of the same product.",
-        tr:"Materyal: Pamuk Renk: Kırmızı Stok sınırldır. Aynı üründen en fazla 2 tane sipariş veribilir.",
-        fr: "Matière : Coton Couleur : Rouge Le stock est limité. Vous pouvez commander un maximum de 2 articles du même produit.",
-        es:"Material: Algodón Color: Rojo Stock limitado. Puedes pedir un máximo de 2 artículos del mismo producto.",
+        en: "Material: Cotton Color: Black Stock is limited. You can order maximum 2 of the same product.",
+        tr:"Materyal: Pamuk Renk: Siyah Stok sınırldır. Aynı üründen en fazla 2 tane sipariş veribilir.",
+        fr: "Matière : Coton Couleur : Nevro Le stock est limité. Vous pouvez commander un maximum de 2 articles du même produit.",
+        es:"Material: Algodón Color: Negro Stock limitado. Puedes pedir un máximo de 2 artículos del mismo producto.",
 
       },
       imageAlt: {
-        en: "Woman-Shirt",
-        tr: "Kadın-Tshirt",
-        fr: "Vue arrière de la maison moderne avec piscine",
-        es: "Vista trasera de la casa moderna con piscina"
+        en: "Woman Tshirt",
+        tr: "Tshirt-Kadın",
+        fr: "t-shirt femme",
+        es: "camiseta de mujer"
       },
   
       
@@ -580,8 +580,9 @@ export const ProductsProvider = ({ children }) => {
       fav: 2030,
       feedbacks: {
   photoComments: [
-  { name: "sevgi.ak", comment: "Renk solması oldu, biraz hayal kırıklığı.", star: 2, photo: ph1 },
-  { name: "furkan.bz", comment: "Kargo hızlıydı, ürün de kaliteli.", star: 5, photo: ph2 }
+  { name: "sevgi.ak", comment: "Renk solması oldu, biraz hayal kırıklığı.", star: 2, photo: ph20},
+  { name: "fulya.bz", comment: "Kargo hızlıydı, ürün de kaliteli.", star: 5, photo: ph21 },
+   { name: "cansu", comment: "sevdimmm.", star: 5, photo: ph22 },
   ],
   comments: [
    { name: "halil.yaman", comment: "Fiyat/performans açısından mükemmel.", star: 5 },
@@ -598,8 +599,10 @@ export const ProductsProvider = ({ children }) => {
         
       },
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim"},
+        comm1:{question:"çok bol mu", answer:"footğraftaki gibi,efendim."},
+        comm2:{question:"büyük beden olur mu?", answer:"olur,efendim"},
+         comm3:{question:"bedenler tam oluyor mu", answer:"evet,efendim."},
+        comm4:{question:"büyük beden olur mu?", answer:"olur,efendim"},
       },
       color:"green",
       wideness:"wide",
@@ -611,23 +614,18 @@ export const ProductsProvider = ({ children }) => {
       rating: 8.5,
       image: woman9,
       kind:"woman",
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
+    
       title: {
-        en: "Woman Tshirt",
-        tr: "Tshirt-Kadın",
-        fr: "Woman Tshirt",
-        es: "Camiseta"
+        en: "pants-green",
+        tr: "pantolon-yeşil",
+        fr: "pantalon vert",
+        es: "pantalones verdes"
       },
         imageAlt: {
-        en: "Woman-Shirt",
-        tr: "Kadın-Tshirt",
-        fr: "Vue arrière de la maison moderne avec piscine",
-        es: "Vista trasera de la casa moderna con piscina"
+        en: "pants-green",
+        tr: "pantolon-yeşil",
+        fr: "pantalon vert",
+        es: "pantalones verdes"
       },
   
 
@@ -638,8 +636,8 @@ export const ProductsProvider = ({ children }) => {
       fav: 3020,
        feedbacks: {
    photoComments: [
-    { name: "leyla.ergen", comment: "Renk canlı ama biraz kısa geldi bana.", star: 3, photo: ph1 },
-    { name: "bora.aksoy", comment: "Gerçekten kaliteli, tam beden oldu.", star: 5, photo: ph2 }
+    { name: "leyla.ergen", comment: "Renk canlı ama biraz kısa geldi bana.", star: 3, photo: ph23 },
+    { name: "bora.aksoy", comment: "Gerçekten kaliteli, tam beden oldu.", star: 5, photo: ph24 }
   ],
   comments: [
     { name: "pelin.kaya", comment: "Paketleme çok iyiydi, ürünü sevdim.", star: 4 },
@@ -668,8 +666,10 @@ export const ProductsProvider = ({ children }) => {
         
       },
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim"},
+        comm1:{question:"oversize mı?", answer:"evet,efendim ürün oversizedır."},
+        comm2:{question:"stokalr yenilenir mi?", answer:"evet,efendim"},
+        comm3:{question:"unisex mi?", answer:"evet,efendim"},
+        comm4:{question:"beden nasıl", answer:"görseldeki gibidir."},
       },
       image: men1,
       wideness:"wide",
@@ -679,21 +679,16 @@ export const ProductsProvider = ({ children }) => {
       color:"black",
       rating: 4.5,
       kind:"men",
-      price : 250  ,
+      price : 152  ,
       type:"shirt",
 
       title: {
-        en: "Black Tshirt",
-        tr: "Siyah Tshirt",
-        fr: "T-shirt Noir",
-        es: "Camiseta Negra",
+        en: "White Tshirt",
+        tr: "Beyaz Tshirt",
+        fr: "T-shirt Blanc",
+        es: "Camiseta Blanco",
       },
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
+  
       description : {
         en: "Material: Cotton Color: White Stock is limited. You can order maximum 3 of the same product.",
         tr:"Materyal: Pamuk Renk: Kırmızı Stok sınırldır. Aynı üründen en fazla 3 tane sipariş veribilir.",
@@ -703,10 +698,10 @@ export const ProductsProvider = ({ children }) => {
       },
       imageAlt: {
         
-        en: "Woman-Shirt",
-        tr: "Kadın-Gömlek",
-        fr: "Vue arrière de la maison moderne avec piscine",
-        es: "Vista trasera de la casa moderna con piscina"
+        en: "White Tshirt",
+        tr: "Beyaz Tshirt",
+        fr: "T-shirt Blanc",
+        es: "Camiseta Blanco",
       },
    
     },
@@ -715,12 +710,10 @@ export const ProductsProvider = ({ children }) => {
       fav: 4600,
        feedbacks: {
    photoComments: [
-    { name: "dilan.yildiz", comment: "Ürün fotoğraflardan daha güzel.", star: 5, photo: ph1 },
-    { name: "baran.keskin", comment: "Yaka kısmı beklediğimden genişti.", star: 2, photo: ph2 },
-    { name: "meltem.er", comment: "Çok tatlı bir dokusu var, sevdim.", star: 4, photo: ph1 },
-    { name: "ahmet.bozkurt", comment: "Kargo ezilmişti, ürün zarar görmüş.", star: 1, photo: ph2 },
-    { name: "ebru.kilic", comment: "Boyu kısa geldi ama kumaş kaliteli.", star: 3, photo: ph1 },
-    { name: "mustafa.al", comment: "Gerçekten nefes alıyor kumaşı!", star: 5, photo: ph2 }
+    { name: "dilan.yildiz", comment: "Ürün fotoğraflardan daha güzel.", star: 5, photo: ph26},
+    { name: "baran.keskin", comment: "Yaka kısmı beklediğimden genişti.", star: 2, photo: ph27 },
+    { name: "meltem.er", comment: "Çok tatlı bir dokusu var, sevdim.", star: 4, photo: ph25 },
+
   ],
   comments: [
     { name: "gokce.oz", comment: "Ürün anlatıldığı gibiydi, teşekkürler.", star: 5 },
@@ -737,42 +730,41 @@ export const ProductsProvider = ({ children }) => {
         
       },
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim"},
+        comm1:{question:"çok bol mu", answer:"fotoğraftaki gibi efendim"},
+        comm2:{question:"büyük beden var mı?", answer:"var, efendim"},
+        comm3:{question:"çok bol mu", answer:"fotoğraftaki gibi efendim"},
+        comm4:{question:"büyük bedenler var mı?", answer:"var, efendim"},
+         comm5:{question:" bol mu", answer:"fotoğraftaki gibi efendim"},
+        comm6:{question:"stoklar var mı", answer:"var, efendim"},
       },
       brand:"bershka",
       material:"cotton",
       wideness:"normal",
       style:"spor",
-      color:"green",
+      color:"black",
       image: men2,
       kind:"men",
       rating: 8.5,
       price : 90  ,
       type:"shirt",
       title: {
-        en: "Green Tshirt",
-        tr: "Yeşil Tshirt ",
-        fr: "T-shirt Verd",
-        es: "Camiseta Verde"
+        en: "Black Tshirt",
+        tr: "Siyah Tshirt ",
+        fr: "T-shirt Nevro",
+        es: "Camiseta negro"
       },
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
+     
       description : {
-        en: "Material: Cotton Color: Red Stock is limited. You can order maximum 5 of the same product.",
-        tr:"Materyal: Pamuk Renk: Kırmızı Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
-        fr: "Matière : Coton Couleur : Rouge Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
-        es:"Material: Algodón Color: Rojo Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
+        en: "Material: Cotton Color: Black Stock is limited. You can order maximum 5 of the same product.",
+        tr:"Materyal: Pamuk Renk: Siyah Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
+        fr: "Matière : Coton Couleur : Nevro Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
+        es:"Material: Algodón Color: negro Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
       },
       imageAlt: {
-        en: "Woman-Shirt",
-        tr: "Kadın-Tshirt",
-        fr: "Vue arrière de la maison moderne avec piscine",
-        es: "Vista trasera de la casa moderna con piscina"
+      en: "Black Tshirt",
+        tr: "Siyah Tshirt ",
+        fr: "T-shirt Nevro",
+        es: "Camiseta negro"
       },
       
     },
@@ -782,9 +774,8 @@ export const ProductsProvider = ({ children }) => {
       fav: 5400,
        feedbacks: {
   photoComments: [
-    { name: "buse.korkmaz", comment: "Kumaşı çok kaliteli, bayıldım!", star: 5, photo: ph1 },
-    { name: "tuncay.er", comment: "Paketleme kötüydü ama ürün sağlamdı.", star: 3, photo: ph2 },
-    { name: "hande.sezer", comment: "Renk solması var, beğenmedim.", star: 2, photo: ph2 }
+    { name: "buse.korkmaz", comment: "Kumaşı çok kaliteli, bayıldım!", star: 5, photo: ph28 },
+ 
   ],
   comments: [
     { name: "ozan.akca", comment: "Görseldeki gibi değil, biraz kandırmaca.", star: 2 },
@@ -803,43 +794,42 @@ export const ProductsProvider = ({ children }) => {
         
       },
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim"},
+        comm1:{question:"ölçüler nasıl", answer:"bedene göre,efendim"},
+        comm2:{question:"çok bol mu?", answer:"bedene göre değişir efendim."},
+         comm3:{question:"ölçüler nasıl", answer:"bedene göre,efendim"},
+        comm4:{question:"büyük beden var mı?", answer:"evet,efendim"},
+         comm5:{question:"xs nasıl olur ", answer:"bedene göre,efendim"},
+        comm6:{question:"stoklar?", answer:"yakında yenilenir,efendim"},
       },
       brand:"koton",
       material:"pongee",
       style:"casual",
       wideness:"wide",
-      color:"black",
+      color:"green",
       image: men3,
       kind:"men",
       rating: 3.5,
       price : 140  ,
       type:"tunic",
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
+      
       title: {
-        en: "Black Shirt",
-        tr: "Siyah T-shirt",
-        fr: "Chemise en satin blanc",
-        es: "Camiseta Negra"
+        en: "Green Shirt",
+        tr: "Yeşil T-shirt",
+        fr: "t-shirt vert",
+        es: "camiseta verde"
       },
       description : {
-        en: "Material: Cotton Color: Red Stock is limited. You can order maximum 5 of the same product.",
-        tr:"Materyal: Pamuk Renk: Kırmızı Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
-        fr: "Matière : Coton Couleur : Rouge Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
-        es:"Material: Algodón Color: Rojo Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
+        en: "Material: Cotton Color: Green Stock is limited. You can order maximum 5 of the same product.",
+        tr:"Materyal: Pamuk Renk: Yeşil Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
+        fr: "Matière : Coton Couleur : Vert Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
+        es:"Material: Algodón Color: Verde Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
   
       },
       imageAlt: {
-        en: "Red Tshirt",
-        tr: "Kırmızı Tshirt",
-        fr: "Vue arrière avec piscine",
-        es: "Vista trasera con piscina"
+         en: "Green Shirt",
+        tr: "Yeşil T-shirt",
+        fr: "t-shirt vert",
+        es: "camiseta verde"
       },
   
     },
@@ -849,7 +839,8 @@ export const ProductsProvider = ({ children }) => {
       fav: 6200,
         feedbacks: {
  photoComments: [
-    { name: "umut.cetin", comment: "Kumaş nefes alıyor, yaz için harika.", star: 5, photo: ph1 }
+    { name: "umut.cetin", comment: "Kumaş nefes alıyor, yaz için harika.", star: 5, photo: ph31 },
+     { name: "utkum", comment: "Kumaş nefes alıyor, yaz için harika.", star: 5, photo: ph32 }
   ],
   comments: [
     { name: "nur.aydin", comment: "Ürün hatalı geldi, değişim yaptım.", star: 2 },
@@ -870,10 +861,12 @@ export const ProductsProvider = ({ children }) => {
         
       },
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim"},
+        comm1:{question:"bol mu", answer:"evet,efendim"},
+        comm2:{question:"ürün oversize mı?", answer:"evet,efendim"},
+         comm3:{question:"kalıbı nasıl?", answer:"görseldeki gibidir,bedene göre değişir."},
+        comm4:{question:"stoklar var mı ?", answer:"evet,efendim"},
       },
-      image: men4,
+      image: men6,
       wideness:"wide",
       brand:"bershka",
       material:"cotton",
@@ -890,25 +883,20 @@ export const ProductsProvider = ({ children }) => {
         fr: "Pantolon Gris",
         es: "Pantalones Grises",
       },
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
+     
       description : {
-        en: "Material: Cotton Color: White Stock is limited. You can order maximum 3 of the same product.",
-        tr:"Materyal: Pamuk Renk: Kırmızı Stok sınırldır. Aynı üründen en fazla 3 tane sipariş veribilir.",
-        fr: "Matière : Coton Couleur : Rouge Le stock est limité. Vous pouvez commander un maximum de 3 articles du même produit.",
-        es:"Material: Algodón Color: Rojo Stock limitado. Puedes pedir un máximo de 3 artículos del mismo producto.",
+        en: "Material: Cotton Color: Gray Stock is limited. You can order maximum 3 of the same product.",
+        tr:"Materyal: Pamuk Renk: Gri Stok sınırldır. Aynı üründen en fazla 3 tane sipariş veribilir.",
+        fr: "Matière : Coton Couleur : Gris Le stock est limité. Vous pouvez commander un maximum de 3 articles du même produit.",
+        es:"Material: Algodón Color: Grises Stock limitado. Puedes pedir un máximo de 3 artículos del mismo producto.",
 
       },
       imageAlt: {
         
-        en: "Woman-Shirt",
-        tr: "Kadın-Gömlek",
-        fr: "Vue arrière de la maison moderne avec piscine",
-        es: "Vista trasera de la casa moderna con piscina"
+       en: "Gray Pant",
+        tr: "Gri pantalon",
+        fr: "Pantolon Gris",
+        es: "Pantalones Grises",
       },
  
     },
@@ -917,10 +905,10 @@ export const ProductsProvider = ({ children }) => {
       fav: 7080,
         feedbacks: {
  photoComments: [
-    { name: "aydan.sen", comment: "Kargoda biraz ezilmiş ama ürün sağlamdı.", star: 3, photo: ph1 },
-    { name: "ferhat.bal", comment: "Model çok hoş, rengi canlı.", star: 4, photo: ph2 },
-    { name: "damla.oz", comment: "Beğenmedim, kumaş çok ince geldi.", star: 1, photo: ph1 },
-    { name: "halime.aras", comment: "Bu kadar güzel olacağını beklemiyordum!", star: 5, photo: ph2 }
+    { name: "aydan.sen", comment: "Kargoda biraz ezilmiş ama ürün sağlamdı.", star: 3, photo: ph25 },
+    { name: "ferhat.bal", comment: "Model çok hoş, rengi canlı.", star: 4, photo: ph26 },
+    { name: "damla.oz", comment: "Beğenmedim, kumaş çok ince geldi.", star: 1, photo: ph27 },
+   
   ],
   comments: [
     { name: "ibrahim.kaya", comment: "Kesimi dar, beden büyük alın derim.", star: 3 },
@@ -938,42 +926,38 @@ export const ProductsProvider = ({ children }) => {
       },
       brand:"koton",
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim"},
+        comm1:{question:"oversize mı?", answer:"evet,efendim"},
+        comm2:{question:"büyük beden olur mu? ", answer:"evet,efendim"},
+        comm3:{question:"bol ürünm ü ? ", answer:"evet,efendim"},
       },
       material:"pongee",
       style:"casual",
       wideness:"wide",
       color:"white",
-      image: men5,
+      image: men4,
       kind:"men",
       rating: 3.5,
       price : 140  ,
       type:"tunic",
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
+      
       title: {
-        en: "White Satin Shirt",
-        tr: "Beyaz Saten Gömlek",
-        fr: "Chemise en satin blanc",
-        es: "Camisa de satén blanca"
+        en: "Black basic-tshirt",
+        tr: "siyah-sade-tshirt",
+        fr: "t-shirt noir uni",
+        es: "camiseta negra lisa"
       },
       description : {
-        en: "Material: Cotton Color: Red Stock is limited. You can order maximum 5 of the same product.",
-        tr:"Materyal: Pamuk Renk: Kırmızı Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
-        fr: "Matière : Coton Couleur : Rouge Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
-        es:"Material: Algodón Color: Rojo Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
+        en: "Material: Cotton Color: Black Stock is limited. You can order maximum 5 of the same product.",
+        tr:"Materyal: Pamuk Renk: Siyah Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
+        fr: "Matière : Coton Couleur : Nevro Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
+        es:"Material: Algodón Color: negro Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
   
       },
       imageAlt: {
-        en: "Red Tshirt",
-        tr: "Kırmızı Tshirt",
-        fr: "Vue arrière avec piscine",
-        es: "Vista trasera con piscina"
+        en: "Black basic-tshirt",
+        tr: "siyah-sade-tshirt",
+        fr: "t-shirt noir uni",
+        es: "camiseta negra lisa"
       },
    
     },
@@ -982,8 +966,8 @@ export const ProductsProvider = ({ children }) => {
       fav: 11900,
         feedbacks: {
   photoComments: [
-    { name: "meltem.durmaz", comment: "Kalıbı tam oturdu, kumaşı da güzel.", star: 5, photo: ph1 },
-    { name: "ozgur.deniz", comment: "Kargo yavaştı ama ürün başarılı.", star: 4, photo: ph2 }
+    { name: "meltem.durmaz", comment: "Kalıbı tam oturdu, kumaşı da güzel.", star: 5, photo: ph29 },
+    { name: "ozgur.deniz", comment: "Kargo yavaştı ama ürün başarılı.", star: 4, photo: ph30 }
   ],
   comments: [
     { name: "selin.yilmaz", comment: "Ürün kusurlu geldi, iade ettim.", star: 1 },
@@ -1003,8 +987,10 @@ export const ProductsProvider = ({ children }) => {
         
       },
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim"},
+        comm1:{question:"kalıbı nasıl", answer:"bedene göre değişir,efendim"},
+        comm2:{question:"erkek arkadaşım için alıcam ,bedenler nasıl", answer:"beden belirtirseniz yardımcı olurum"},
+          comm3:{question:"stokalr yenilenir mi", answer:"evet,efendim"},
+        comm4:{question:"bedenler nasıl", answer:"fotoğraftaki gibidir."},
       },
       brand:"bershka",
       material:"pongee",
@@ -1016,12 +1002,7 @@ export const ProductsProvider = ({ children }) => {
       rating: 3.5,
       price : 140  ,
       type:"tunic",
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
+    
       title: {
         en: "Blue Shirt",
         tr: "Mavi Tshirt",
@@ -1029,17 +1010,17 @@ export const ProductsProvider = ({ children }) => {
         es: "Camiseta Azul"
       },
       description : {
-        en: "Material: Cotton Color: Red Stock is limited. You can order maximum 5 of the same product.",
-        tr:"Materyal: Pamuk Renk: Kırmızı Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
-        fr: "Matière : Coton Couleur : Rouge Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
-        es:"Material: Algodón Color: Rojo Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
+        en: "Material: Cotton Color: Blue Stock is limited. You can order maximum 5 of the same product.",
+        tr:"Materyal: Pamuk Renk: Mavi Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
+        fr: "Matière : Coton Couleur : Bleu Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
+        es:"Material: Algodón Color: Azul Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
   
       },
       imageAlt: {
-        en: "Red Tshirt",
-        tr: "Kırmızı Tshirt",
-        fr: "Vue arrière avec piscine",
-        es: "Vista trasera con piscina"
+      en: "Blue Shirt",
+        tr: "Mavi Tshirt",
+        fr: "T-shirt Bleu",
+        es: "Camiseta Azul"
       },
     
     },
@@ -1047,13 +1028,6 @@ export const ProductsProvider = ({ children }) => {
       id: 16,
       fav: 1000,
        feedbacks: {
-  photoComments: [
-    { name: "mert.karakas", comment: "İlk yıkamada tüylenme yaptı!", star: 1, photo: ph1 },
-    { name: "sibel.erdogan", comment: "Çok hoş duruyor, tam ölçü.", star: 5, photo: ph2 },
-    { name: "rahmi.bora", comment: "Paketleme çok iyiydi, ürün de güzel.", star: 4, photo: ph1 },
-    { name: "aylin.kaplan", comment: "Biraz ince ama yaz için ideal.", star: 4, photo: ph1 },
-    { name: "cemre.usta", comment: "Renk görseldekinden biraz farklı.", star: 2, photo: ph2 }
-  ],
   comments: [
     { name: "yusuf.dag", comment: "Beden büyük geldi, iade ettim.", star: 2 },
     { name: "nida.ekin", comment: "Fiyatına göre iyi performans.", star: 4 },
@@ -1070,8 +1044,9 @@ export const ProductsProvider = ({ children }) => {
         
       },
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim"},
+        comm1:{question:"kalıp nasıl", answer:"bedenlere göre değişir efendim"},
+        comm2:{question:"stok yenilenecek mi", answer:"evet efendim"},
+        comm3:{question:"stoklar?", answer:"yenilenecektir, efendim"},
       },
       brand:"koton",
       material:"pongee",
@@ -1096,17 +1071,17 @@ export const ProductsProvider = ({ children }) => {
         es: "Suéter para niños"
       },
       description : {
-        en: "Material: Cotton Color: Red Stock is limited. You can order maximum 5 of the same product.",
-        tr:"Materyal: Pamuk Renk: Kırmızı Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
-        fr: "Matière : Coton Couleur : Rouge Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
-        es:"Material: Algodón Color: Rojo Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
+        en: "Material: Cotton Color: Black Stock is limited. You can order maximum 5 of the same product.",
+        tr:"Materyal: Pamuk Renk: Siyah Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
+        fr: "Matière : Coton Couleur : Nevro Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
+        es:"Material: Algodón Color: Negro Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
   
       },
       imageAlt: {
-        en: "Red Tshirt",
-        tr: "Kırmızı Tshirt",
-        fr: "Vue arrière avec piscine",
-        es: "Vista trasera con piscina"
+       en: "Kid Sweater ",
+        tr: "Çocuk Kazağı",
+        fr: "Pull pour enfant",
+        es: "Suéter para niños"
       },
    
     },
@@ -1114,11 +1089,7 @@ export const ProductsProvider = ({ children }) => {
       id: 17,
       fav: 1000,
        feedbacks: {
-    photoComments: [
-    { name: "baris.kilic", comment: "Gerçekten kaliteli, tavsiye ederim.", star: 5, photo: ph1 },
-    { name: "ece.arikan", comment: "Yorumlara güvenerek aldım, memnunum.", star: 4, photo: ph2 },
-    { name: "sinan.kurt", comment: "Biraz dar kalıp, dikkat edin.", star: 2, photo: ph2 }
-  ],
+   
   comments: [
     { name: "nurcan.alp", comment: "Kargo geç geldiği için 1 puan kırdım.", star: 4 },
     { name: "okan.ergin", comment: "Tam beklediğim gibi, kaliteli.", star: 5 },
@@ -1138,8 +1109,10 @@ export const ProductsProvider = ({ children }) => {
         
       },
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim"},
+        comm1:{question:"stoklar yenilenir mi", answer:"evet,efendim"},
+        comm2:{question:"görseldeki gibi mi rengi", answer:"evet,efendim"},
+        comm3:{question:"rengi nasıl", answer:"görseldeki gibidir,efendim"},
+        comm4:{question:"görseldeki gibi mi", answer:"evet,efendim"},
       },
       brand:"mavi",
       material:"pongee",
@@ -1151,12 +1124,7 @@ export const ProductsProvider = ({ children }) => {
       rating: 2.5,
       price : 120  ,
       type:"pants",
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
+      
       title: {
         en: "Kid Pants ",
         tr: "Çocuk Takım",
@@ -1164,17 +1132,17 @@ export const ProductsProvider = ({ children }) => {
         es: "Pantalones para niños"
       },
       description : {
-        en: "Material: Cotton Color: Red Stock is limited. You can order maximum 5 of the same product.",
-        tr:"Materyal: Pamuk Renk: Kırmızı Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
-        fr: "Matière : Coton Couleur : Rouge Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
-        es:"Material: Algodón Color: Rojo Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
+        en: "Material: Cotton Color: Black Stock is limited. You can order maximum 5 of the same product.",
+        tr:"Materyal: Pamuk Renk: Siyah Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
+        fr: "Matière : Coton Couleur : Nevro Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
+        es:"Material: Algodón Color: Negro Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
   
       },
       imageAlt: {
-        en: "Red Tshirt",
-        tr: "Kırmızı Tshirt",
-        fr: "Vue arrière avec piscine",
-        es: "Vista trasera con piscina"
+         en: "Kid Pants ",
+        tr: "Çocuk Takım",
+        fr: "Pantalons pour enfants",
+        es: "Pantalones para niños"
       },
   
     },
@@ -1182,11 +1150,7 @@ export const ProductsProvider = ({ children }) => {
       id: 18,
       fav: 800,
        feedbacks: {
-  photoComments: [
-    { name: "dilara.aksoy", comment: "Renk çok soluk geldi, iade ettim.", star: 1, photo: ph1 },
-    { name: "burhan.kilic", comment: "Uygun fiyat, hızlı kargo. Teşekkürler.", star: 5, photo: ph2 },
-    { name: "emine.celik", comment: "Ürün güzel ama kumaşı çabuk kırışıyor.", star: 3, photo: ph1 }
-  ],
+ 
   comments: [
     { name: "mehmet.caglar", comment: "Beklediğimden iyi geldi, öneririm.", star: 4 },
     { name: "aylin.dogan", comment: "Fotoğraftakiyle birebir değil.", star: 2 },
@@ -1205,8 +1169,8 @@ export const ProductsProvider = ({ children }) => {
         
       },
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim"},
+        comm1:{question:"rengi fotoğraftaki gibi mi acaba?", answer:"evet,efendim"},
+        comm2:{question:"kullancıılar renk soluk diyor", answer:"hayır,efendim."},
       },
       brand:"koton",
       material:"pongee",
@@ -1218,12 +1182,7 @@ export const ProductsProvider = ({ children }) => {
       rating: 2.5,
       price : 120  ,
       type:"pants",
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
+    
         title: {
         en: "Kid Pants ",
         tr: "Çocuk Takım",
@@ -1231,17 +1190,17 @@ export const ProductsProvider = ({ children }) => {
         es: "Pantalones para niños"
       },
       description : {
-        en: "Material: Cotton Color: Red Stock is limited. You can order maximum 5 of the same product.",
-        tr:"Materyal: Pamuk Renk: Kırmızı Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
-        fr: "Matière : Coton Couleur : Rouge Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
-        es:"Material: Algodón Color: Rojo Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
+        en: "Material: Cotton Color: Gray Stock is limited. You can order maximum 5 of the same product.",
+        tr:"Materyal: Pamuk Renk: Gri Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
+        fr: "Matière : Coton Couleur : Gray Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
+        es:"Material: Algodón Color: Grises Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
   
       },
       imageAlt: {
-        en: "Red Tshirt",
-        tr: "Kırmızı Tshirt",
-        fr: "Vue arrière avec piscine",
-        es: "Vista trasera con piscina"
+          en: "Kid Pants ",
+        tr: "Çocuk Takım",
+        fr: "Pantalons pour enfants",
+        es: "Pantalones para niños"
       },
  
     },
@@ -1249,10 +1208,6 @@ export const ProductsProvider = ({ children }) => {
       id: 19,
       fav: 16000,
      feedbacks: {
-   photoComments: [
-    { name: "asli.tunc", comment: "Gerçekten çok şık duruyor, bayıldım!", star: 5, photo: ph1 },
-    { name: "omer.gul", comment: "İlk giyişte dikiş attı, hayal kırıklığı.", star: 1, photo: ph2 }
-  ],
   comments: [
     { name: "gizem.kaya", comment: "Günlük kullanım için uygun.", star: 4 },
     { name: "fatih.ayaz", comment: "Biraz daha kalın olsaydı harika olurdu.", star: 3 },
@@ -1272,8 +1227,8 @@ export const ProductsProvider = ({ children }) => {
       brand:"koton",
       material:"pongee",
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim"},
+        comm1:{question:"cok dar mı", answer:"bedene göre değişir efendim."},
+        comm2:{question:"çocugum icin alıcam, bedenler yenilenirr mi", answer:"tabii ki,efendim."},
       },
       style:"casual",
       wideness:"wide",
@@ -1283,12 +1238,8 @@ export const ProductsProvider = ({ children }) => {
       rating: 2.5,
       price : 520  ,
       type:"sweater",
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
+      
+
       title: {
         en: "Kid Sweater ",
         tr: "Çocuk Kazağı",
@@ -1303,10 +1254,10 @@ export const ProductsProvider = ({ children }) => {
   
       },
       imageAlt: {
-        en: "Red Tshirt",
-        tr: "Kırmızı Tshirt",
-        fr: "Vue arrière avec piscine",
-        es: "Vista trasera con piscina"
+         en: "Kid Sweater ",
+        tr: "Çocuk Kazağı",
+        fr: "Pull pour enfant",
+        es: "Suéter para niños"
       },
   
     },
@@ -1314,11 +1265,7 @@ export const ProductsProvider = ({ children }) => {
       id: 20,
       fav: 100,
      feedbacks: {
-  photoComments: [
-    { name: "dilara.aksoy", comment: "Renk çok soluk geldi, iade ettim.", star: 1, photo: ph1 },
-    { name: "burhan.kilic", comment: "Uygun fiyat, hızlı kargo. Teşekkürler.", star: 5, photo: ph2 },
-    { name: "emine.celik", comment: "Ürün güzel ama kumaşı çabuk kırışıyor.", star: 3, photo: ph1 }
-  ],
+
   comments: [
     { name: "mehmet.caglar", comment: "Beklediğimden iyi geldi, öneririm.", star: 4 },
     { name: "aylin.dogan", comment: "Fotoğraftakiyle birebir değil.", star: 2 },
@@ -1338,8 +1285,10 @@ export const ProductsProvider = ({ children }) => {
       },
       brand:"koton",
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim"},
+        comm1:{question:"cocugum ıcın almak ıstıyorum,bedenler bol mu", answer:"biraz oversizedır efendim."},
+        comm2:{question:"diğer renkleri var mı?", answer:"bu üründen sadece bu renk bulunur efendim"},
+        comm3:{question:"bedenler bol mu", answer:"biraz oversizedır efendim."},
+        comm4:{question:"baska renkler?", answer:"bu üründen sadece bu renk bulunur efendim"},
       },
       material:"pongee",
       style:"casual",
@@ -1370,10 +1319,10 @@ export const ProductsProvider = ({ children }) => {
   
       },
       imageAlt: {
-        en: "Red Tshirt",
-        tr: "Kırmızı Tshirt",
-        fr: "Vue arrière avec piscine",
-        es: "Vista trasera con piscina"
+       en: "Kid Sweater ",
+        tr: "Çocuk Kazağı",
+        fr: "Pull pour enfant",
+        es: "Suéter para niños"
       },
    
     },
@@ -1381,9 +1330,7 @@ export const ProductsProvider = ({ children }) => {
       id: 21,
       fav: 507,
       feedbacks: {
- photoComments: [
-    { name: "nazli.yurt", comment: "Model şahane ama dikiş yerleri kötüydü.", star: 2, photo: ph1 }
-  ],
+
   comments: [
     { name: "orhan.bingol", comment: "Ürün açıklamadaki gibi değil.", star: 1 },
     { name: "ayse.kurt", comment: "Rengi canlı, kumaşı rahat.", star: 5 },
@@ -1406,22 +1353,17 @@ export const ProductsProvider = ({ children }) => {
       material:"pongee",
       style:"spor",
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim"},
+        comm1:{question:"ürünün baska renklerı var mı ?", answer:"maalesef efendim"},
+        comm2:{question:"ürün bollaşma yapıyoor mu", answer:"hayır,efendim"},
+        comm3:{question:"bol beden var mı?", answer:"hayır,efendim"},
       },
       wideness:"wide",
       color:"white",
       image: kid5,
       kind:"kid",
-      rating: 3.2,
-      price : 120  ,
+      rating: 2.2,
+      price : 134  ,
       type:"sweater",
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
       title: {
         en: "Kid Sweater ",
         tr: "Çocuk Kazağı",
@@ -1429,17 +1371,17 @@ export const ProductsProvider = ({ children }) => {
         es: "Suéter para niños"
       },
       description : {
-        en: "Material: Cotton Color: Red Stock is limited. You can order maximum 5 of the same product.",
-        tr:"Materyal: Pamuk Renk: Kırmızı Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
-        fr: "Matière : Coton Couleur : Rouge Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
-        es:"Material: Algodón Color: Rojo Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
+        en: "Material: Cotton Color: White Stock is limited. You can order maximum 5 of the same product.",
+        tr:"Materyal: Pamuk Renk: Beyaz Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
+        fr: "Matière : Coton Couleur : Blanc Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
+        es:"Material: Algodón Color: Blanco Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
   
       },
       imageAlt: {
-        en: "Red Tshirt",
-        tr: "Kırmızı Tshirt",
-        fr: "Vue arrière avec piscine",
-        es: "Vista trasera con piscina"
+        en: "Kid Sweater ",
+        tr: "Çocuk Kazağı",
+        fr: "Pull pour enfant",
+        es: "Suéter para niños"
       },
 
      
@@ -1448,10 +1390,7 @@ export const ProductsProvider = ({ children }) => {
       id: 22,
       fav: 4000,
      feedbacks: {
- photoComments: [
-    { name: "burcu.koc", comment: "Paketleme çok iyiydi, ürün zarar görmemiş.", star: 5, photo: ph1 },
-    { name: "arda.bey", comment: "Biraz bol geldi ama rengi güzel.", star: 3, photo: ph2 }
-  ],
+
   comments: [
     { name: "kerem.altay", comment: "Hafif ve rahat bir ürün.", star: 4 },
     { name: "melis.oz", comment: "Dikiş yerleri biraz özensizdi.", star: 2 },
@@ -1469,8 +1408,9 @@ export const ProductsProvider = ({ children }) => {
       },
       brand:"mavi",
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim"},
+        comm1:{question:"rengi fotodaki gibi mi", answer:"evet,efendim"},
+        comm2:{question:"iz bırakıyor mu", answer:"hayır,efendim"},
+         comm3:{question:"iz kalıyor mu?", answer:"hayır,efendim"},
       },
       material:"pongee",
       style:"casual",
@@ -1481,12 +1421,7 @@ export const ProductsProvider = ({ children }) => {
       rating: 3.2,
       price : 70  ,
       type:"necklace",
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
+      
       title: {
         en: "White Necklace ",
         tr: "Beyaz Kolye",
@@ -1494,17 +1429,17 @@ export const ProductsProvider = ({ children }) => {
         es: "collar blanco"
       },
       description : {
-        en: "Material: Cotton Color: Red Stock is limited. You can order maximum 5 of the same product.",
-        tr:"Materyal: Pamuk Renk: Kırmızı Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
-        fr: "Matière : Coton Couleur : Rouge Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
-        es:"Material: Algodón Color: Rojo Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
+        en: "Material: Cotton Color: White Stock is limited. You can order maximum 5 of the same product.",
+        tr:"Materyal: Pamuk Renk: beyeaz Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
+        fr: "Matière : Coton Couleur : Blanc Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
+        es:"Material: Algodón Color: Blanco Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
   
       },
       imageAlt: {
-        en: "Red Tshirt",
-        tr: "Kırmızı Tshirt",
-        fr: "Vue arrière avec piscine",
-        es: "Vista trasera con piscina"
+        en: "White Necklace ",
+        tr: "Beyaz Kolye",
+        fr: "Collier blanc",
+        es: "collar blanco"
       },
   
     },
@@ -1512,10 +1447,7 @@ export const ProductsProvider = ({ children }) => {
       id: 23,
       fav: 7000,
        feedbacks: {
-  photoComments: [
-    { name: "ece.mira", comment: "Tam beklediğim gibi geldi, harika.", star: 5, photo: ph1 },
-    { name: "yigit.guzel", comment: "Kalıbı bana uymadı, iade ettim.", star: 1, photo: ph2 }
-  ],
+  
   comments: [
     { name: "asuman.gok", comment: "Deseni çok hoşuma gitti.", star: 4 },
     { name: "hakan.ozdemir", comment: "Tavsiye etmem, kalitesiz duruyor.", star: 1 }
@@ -1531,8 +1463,8 @@ export const ProductsProvider = ({ children }) => {
         
       },
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim"},
+        comm1:{question:"kopma oluyor mu", answer:"hayır,efendim"},
+       
       },
       brand:"mavi",
       material:"pongee",
@@ -1544,12 +1476,7 @@ export const ProductsProvider = ({ children }) => {
       rating: 4.2,
       price : 110  ,
       type:"necklace",
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
+    
       title: {
         en: "ehite necklace ",
         tr: "beyaz kolye",
@@ -1557,17 +1484,17 @@ export const ProductsProvider = ({ children }) => {
         es: "collar blanco"
       },
       description : {
-        en: "Material: Cotton Color: Red Stock is limited. You can order maximum 5 of the same product.",
-        tr:"Materyal: Pamuk Renk: Kırmızı Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
-        fr: "Matière : Coton Couleur : Rouge Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
-        es:"Material: Algodón Color: Rojo Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
+        en: "Material: Cotton Color: White Stock is limited. You can order maximum 5 of the same product.",
+        tr:"Materyal: Pamuk Renk: Beyaz Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
+        fr: "Matière : Coton Couleur : Blanc Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
+        es:"Material: Algodón Color: Blanc Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
   
       },
       imageAlt: {
-        en: "Red Tshirt",
-        tr: "Kırmızı Tshirt",
-        fr: "Vue arrière avec piscine",
-        es: "Vista trasera con piscina"
+       en: "ehite necklace ",
+        tr: "beyaz kolye",
+        fr: "Collier blanc",
+        es: "collar blanco"
       },
  
     },
@@ -1575,10 +1502,7 @@ export const ProductsProvider = ({ children }) => {
       id: 24,
       fav: 6000,
     feedbacks: {
-  photoComments: [
-    { name: "ece.mira", comment: "Tam beklediğim gibi geldi, harika.", star: 5, photo: ph1 },
-    { name: "yigit.guzel", comment: "Kalıbı bana uymadı, iade ettim.", star: 1, photo: ph2 }
-  ],
+ 
   comments: [
     { name: "asuman.gok", comment: "Deseni çok hoşuma gitti.", star: 4 },
     { name: "hakan.ozdemir", comment: "Tavsiye etmem, kalitesiz duruyor.", star: 1 }
@@ -1599,20 +1523,15 @@ export const ProductsProvider = ({ children }) => {
       wideness:"normal",
       color:"white",
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim"},
+        comm1:{question:"kız arkadasıma alıcam ,iz cıkarıyor mu", answer:"hayır,efendim"},
+        comm2:{question:"tek bu rengi mi var", answer:"evet,efendım"},
       },
       image: jew3,
       kind:"jewerly",
       rating: 3.6,
       price : 70  ,
       type:"necklace",
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
+     
       title: {
         en: "white necklace ",
         tr: "beyaz kolye",
@@ -1620,17 +1539,17 @@ export const ProductsProvider = ({ children }) => {
         es: "collar blanco"
       },
       description : {
-        en: "Material: Cotton Color: Red Stock is limited. You can order maximum 5 of the same product.",
-        tr:"Materyal: Pamuk Renk: Kırmızı Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
-        fr: "Matière : Coton Couleur : Rouge Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
-        es:"Material: Algodón Color: Rojo Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
+        en: "Material: Cotton Color: White Stock is limited. You can order maximum 5 of the same product.",
+        tr:"Materyal: Pamuk Renk: Beyaz Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
+        fr: "Matière : Coton Couleur : Blanc Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
+        es:"Material: Algodón Color: Blanco Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
   
       },
       imageAlt: {
-        en: "Red Tshirt",
-        tr: "Kırmızı Tshirt",
-        fr: "Vue arrière avec piscine",
-        es: "Vista trasera con piscina"
+        en: "white necklace ",
+        tr: "beyaz kolye",
+        fr: "Collier blanc",
+        es: "collar blanco"
       },
      
     },
@@ -1638,9 +1557,7 @@ export const ProductsProvider = ({ children }) => {
       id: 25,
       fav: 3000,
     feedbacks: {
-photoComments: [
-    { name: "nur.aksu", comment: "Beden tam uydu, kumaşı da güzel.", star: 5, photo: ph1 }
-  ],
+
   comments: [
     { name: "omer.selim", comment: "Tüylenme yaptı 2. giyişte.", star: 2 },
     { name: "zeynep.karaboga", comment: "Renkleri çok tatlı.", star: 5 },
@@ -1658,8 +1575,8 @@ photoComments: [
         
       },
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim"},
+        comm1:{question:"parmak ölçüsü nedir", answer:"ince parmaklara uygundur"},
+        comm2:{question:"cok dar bir  yapısı var mı", answer:"hayır efendim."},
       },
       brand:"mavi",
       material:"pongee",
@@ -1671,12 +1588,7 @@ photoComments: [
       rating: 4.2,
       price : 610  ,
       type:"ring",
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
+     
       title: {
         en: "Stylish ring",
         tr: "şık yüzük",
@@ -1691,10 +1603,10 @@ photoComments: [
   
       },
       imageAlt: {
-        en: "Red Tshirt",
-        tr: "Kırmızı Tshirt",
-        fr: "Vue arrière avec piscine",
-        es: "Vista trasera con piscina"
+        en: "Stylish ring",
+        tr: "şık yüzük",
+        fr: "Bague élégante",
+        es: "Anillo elegante"
       },
     
     },
@@ -1703,11 +1615,7 @@ photoComments: [
       fav: 2000,
       stock: { xs: 0, s: 0, m: 0, l: 0, xl: 0 },
        feedbacks: {
-    photoComments: [
-    { name: "ilker.tas", comment: "Çekimdeki kadar parlak değil.", star: 2, photo: ph1 },
-    { name: "selin.aydın", comment: "Beklediğimden çok daha güzel.", star: 5, photo: ph2 },
-    { name: "enes.koç", comment: "Yorumlara bakarak aldım, memnun kaldım.", star: 4, photo: ph1 }
-  ],
+
   comments: [
     { name: "canan.yildiz", comment: "Kumaşı nefes alıyor, çok rahat.", star: 5 },
     { name: "nuri.aksoy", comment: "Kalıbı dar, bir beden büyük alın.", star: 4 }
@@ -1715,8 +1623,8 @@ photoComments: [
 },
 
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim"},
+        comm1:{question:"ince parmağa olur mu bol mu oluır", answer:"ayarı vardır efendim."},
+        comm2:{question:"bol olur mu", answer:"ayarı vardır efendim."},
       },
       brand:"mavi",
       material:"pongee",
@@ -1728,12 +1636,7 @@ photoComments: [
       rating: 2.2,
       price : 420  ,
       type:"ring",
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
+   
       title: {
         en: "ring ",
         tr: "yüzük",
@@ -1741,17 +1644,17 @@ photoComments: [
         es: "anillo"
       },
       description : {
-        en: "Material: Cotton Color: Red Stock is limited. You can order maximum 5 of the same product.",
-        tr:"Materyal: Pamuk Renk: Kırmızı Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
-        fr: "Matière : Coton Couleur : Rouge Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
-        es:"Material: Algodón Color: Rojo Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
+        en: "Material: Cotton Color: White Stock is limited. You can order maximum 5 of the same product.",
+        tr:"Materyal: Pamuk Renk: Beyaz Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
+        fr: "Matière : Coton Couleur : Blanc stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
+        es:"Material: Algodón Color: Blanco Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
   
       },
       imageAlt: {
-        en: "Red Tshirt",
-        tr: "Kırmızı Tshirt",
-        fr: "Vue arrière avec piscine",
-        es: "Vista trasera con piscina"
+       en: "ring ",
+        tr: "yüzük",
+        fr: "anneau",
+        es: "anillo"
       },
      
     },
@@ -1760,9 +1663,7 @@ photoComments: [
       fav: 10000,
       stock: { xs: 12, s: 4, m: 5, l: 0, xl: 0 },
         feedbacks: {
-   photoComments: [
-    { name: "leyla.umut", comment: "Renk yıkamada soldu maalesef.", star: 2, photo: ph1 }
-  ],
+
   comments: [
     { name: "taylan.omer", comment: "İş yerinde herkes sordu nereden aldın diye.", star: 5 },
     { name: "nazan.kinik", comment: "Ürün kaliteli ama çok pahalı.", star: 3 },
@@ -1771,8 +1672,8 @@ photoComments: [
 },
 
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim"},
+        comm1:{question:"rengı fotograftakı gıbı mı?", answer:"evet,efendım"},
+        comm2:{question:"bol oluyor mu?", answer:"hayır,efendım"},
       },
       brand:"mavi",
       material:"pongee",
@@ -1784,12 +1685,7 @@ photoComments: [
       rating: 2.2,
       price : 420  ,
       type:"ring",
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
+    
       title: {
         en: "ring ",
         tr: "yüzük",
@@ -1797,17 +1693,17 @@ photoComments: [
         es: "anillo"
       },
       description : {
-        en: "Material: Cotton Color: Red Stock is limited. You can order maximum 5 of the same product.",
-        tr:"Materyal: Pamuk Renk: Kırmızı Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
-        fr: "Matière : Coton Couleur : Rouge Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
-        es:"Material: Algodón Color: Rojo Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
+        en: "Material: Cotton Color: White Stock is limited. You can order maximum 5 of the same product.",
+        tr:"Materyal: Pamuk Renk: Beyaz Stok sınırldır. Aynı üründen en fazla 5 tane sipariş veribilir.",
+        fr: "Matière : Coton Couleur : Blanc Le stock est limité. Vous pouvez commander un maximum de 5 articles du même produit.",
+        es:"Material: Algodón Color: Blanco Stock limitado. Puedes pedir un máximo de 5 artículos del mismo producto.",
   
       },
       imageAlt: {
-        en: "Red Tshirt",
-        tr: "Kırmızı Tshirt",
-        fr: "Vue arrière avec piscine",
-        es: "Vista trasera con piscina"
+       en: "ring ",
+        tr: "yüzük",
+        fr: "anneau",
+        es: "anillo"
       },
    
     },
@@ -1825,17 +1721,11 @@ photoComments: [
      
       image: home1,
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim" , },
+        comm1:{question:"ölçüsü ne kadar", answer:"açıklmada belirtilmiştir efendim."},
+        comm2:{question:"salona uyar mı?", answer:"salon ölçnüze göre değişir." , },
       },
     feedbacks: {
-  photoComments: [
-    
-   { name: "ayse.k", comment: "Çok şık ve kaliteli, bayıldım!", star: 5, photo: ph1 },
-  { name: "mehmet23", comment: "Rengi görseldeki gibi değildi, iade ettim.", star: 1, photo: ph2 },
-  { name: "elifcan", comment: "Kumaşı yumuşak, tam beden oldu. Tavsiye ederim.", star: 4, photo: ph1 },
-    
-  ],
+ 
   comments: [
   { name: "selda.yilmaz", comment: "Ürün beklediğim gibi geldi, çok memnunum.", star: 5 },
   { name: "okan.durmus", comment: "Kalitesi orta düzeyde ama kullanılabilir.", star: 3 },
@@ -1859,12 +1749,7 @@ photoComments: [
         fr: "tapis blanc",
         es: "alfombra blanca",
       },
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
+ 
       description : {
         en: "Material: Cotton Color: White Stock is limited. You can order maximum 3 of the same product.",
         tr:"Materyal: Pamuk Renk: Kırmızı Stok sınırldır. Aynı üründen en fazla 3 tane sipariş veribilir.",
@@ -1897,17 +1782,11 @@ photoComments: [
      
       image: home2,
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim" , },
+        comm1:{question:"görseldeki gibi mi?", answer:"evet efendim."},
+        comm2:{question:"büyüklüğü nasıldır", answer:"açıklamada yer alıyor efendim." , },
       },
     feedbacks: {
-  photoComments: [
-    
-   { name: "aysu", comment: "kaliteli bir kuması var!", star: 5, photo: ph1 },
-  { name: "meh23", comment: "Rengi görseldeki gibi ", star: 4, photo: ph2 },
-  { name: "ela", comment: "Kumaşı yumuşak.", star: 4, photo: ph1 },
-    
-  ],
+
   comments: [
   { name: "selda.c", comment: "Ürün beklediğim gibiydi", star: 5 },
   { name: "okann", comment: "Kalitesi orta düzeyde.", star: 3 },
@@ -1930,12 +1809,6 @@ photoComments: [
         tr: "Krem halı ",
         fr: "tapis crème",
         es: "alfombra color crema",
-      },
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
       },
       description : {
         en: "Material: Cotton Color: Beige. Stock is limited. You can order maximum 3 of the same product.",
@@ -1966,17 +1839,11 @@ photoComments: [
      
       image: home3,
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim" , },
+        comm1:{question:"çok büyük mü?", answer:"ölçüsü açıklamada yer alıyor."},
+        comm2:{question:"rengi fotoğraftaki gibi mi?", answer:"evet,efendim" , },
       },
     feedbacks: {
-  photoComments: [
-    
-   { name: "aysu", comment: "bayıldımmm ", star: 5, photo: ph1 },
-  { name: "meh23", comment: "Rengi görseldeki gibi ", star: 4, photo: ph2 },
-  { name: "ela", comment: "Kumaşı yumuşak.", star: 4, photo: ph1 },
-    
-  ],
+
   comments: [
   { name: "selda.c", comment: "Ürün beklediğim gibiydi", star: 5 },
   { name: "okann", comment: "Kalitesi orta düzeyde.", star: 3 },
@@ -2000,12 +1867,7 @@ photoComments: [
         fr: "placard blanc",
         es: "armario blanco",
       },
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
+
       description : {
         en: "Material: plastic Color: White. Stock is limited. You can order maximum 3 of the same product.",
         tr:"Materyal: plastik Renk: Beyaz. Stok sınırldır. Aynı üründen en fazla 3 tane sipariş veribilir.",
@@ -2035,17 +1897,13 @@ photoComments: [
      
       image: home4,
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim" , },
+        comm1:{question:"rengi soluyor mu?", answer:"hayır,efendim"},
+        comm2:{question:"kolay temizlenir mi?", answer:"evet,efendim" , },
+          comm3:{question:"rengi fotoğraftakı gibi mi?", answer:"evet,efendim"},
+        comm4:{question:"temizlenir mi?", answer:"evet,efendim" , },
       },
     feedbacks: {
-  photoComments: [
-    
-   { name: "ayca", comment: "kaliteli bir ürün!", star: 5, photo: ph1 },
-  { name: "meh23", comment: "Rengi biraz kötü ", star: 1, photo: ph2 },
-  { name: "ela", comment: "odaya cok yakıstı.", star: 5, photo: ph1 },
-    
-  ],
+ 
   comments: [
   { name: "deren", comment: "Ürün iyi", star: 5 },
   { name: "cansu", comment: "Kalitesi  baya iyi ", star: 4 },
@@ -2069,12 +1927,7 @@ photoComments: [
         fr: "placard noir",
         es: "armario negro",
       },
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
+     
       description : {
         en: "Material: plastic Color: Black. Stock is limited. You can order maximum 3 of the same product.",
         tr:"Materyal: plastik Renk: Siyah. Stok sınırldır. Aynı üründen en fazla 3 tane sipariş veribilir.",
@@ -2104,17 +1957,11 @@ photoComments: [
      
       image: home5,
         comments:{
-        comm1:{question:"naber", answer:"iyiyim"},
-        comm2:{question:"naber", answer:"iyiyim" , },
+        comm1:{question:"kolay temizlenir mi?", answer:"evet efendim."},
+  
       },
     feedbacks: {
-  photoComments: [
-    
-   { name: "sezennn", comment: "kaliteli bir kuması var!", star: 5, photo: ph1 },
 
-
-    
-  ],
   comments: [
   { name: "kuzuvkm", comment: "sevdimm yakıştı ", star: 5 },
   { name: "arzu", comment: "Kalitesi  baya iyi ", star: 4 },
@@ -2138,12 +1985,7 @@ photoComments: [
         fr: "canapé crème",
         es: "sofá color crema",
       },
-      cargo : {
-        en:"Cargo",
-        tr:"Kargo",
-        fr:"cargaison",
-        es:"carga",
-      },
+
       description : {
         en: "Material: cotton Color: Beige. Stock is limited. You can order maximum 3 of the same product.",
         tr:"Materyal: cotton Renk: Krem. Stok sınırldır. Aynı üründen en fazla 3 tane sipariş veribilir.",
@@ -2179,13 +2021,7 @@ photoComments: [
       
       },
     feedbacks: {
-  photoComments: [
-    
-   { name: "sezennn", comment: "kaliteli bir kuması var!", star: 5, photo: ph1 },
 
-
-    
-  ],
   comments: [
   { name: "kuzuvkm", comment: "sevdimm yakıştı ", star: 5 },
   { name: "arzu", comment: "Kalitesi  baya iyi ", star: 4 },

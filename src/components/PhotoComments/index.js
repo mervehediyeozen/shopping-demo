@@ -70,16 +70,17 @@ const visibleComments = showAllComments ? writtenComments : writtenComments.slic
               padding="5px"
               boxShadow="md"
             >
-              <Image src={com.photo} w="100%" h="100px" />
-              <Text fontSize="11px" mt="5px" fontWeight="light" fontFamily="heading">{com.photoComment}</Text>
+              <Image src={com.photo} w="100%" h="100px" objectFit="cover" objectPosition="center"/>
+              <Text fontSize="11px" mt="5px" fontWeight="light" fontFamily="heading">{com.comment}</Text>
               <Flex flexDirection="row" justifyContent="right" gap="2px" >
-              
+                
                 <FontAwesomeIcon icon={faStar} color="orange" size="2xs" />
                 <FontAwesomeIcon icon={faStar} color="orange" size="2xs" />
                 <FontAwesomeIcon icon={faStar} color="orange" size="2xs" />
                
                
-                <Text fontSize="9px"  fontFamily="heading">{com.user}</Text>
+                <Text fontSize="9px"  fontFamily="heading">{com.name}</Text>
+               
                 
               </Flex>
             </Box>
@@ -103,9 +104,11 @@ const visibleComments = showAllComments ? writtenComments : writtenComments.slic
           )}
       </Flex>
       </Box>
+      {photoComments.length > 0 && (
        <Box mt="20px" > 
             <Divider  borderColor="#d1ccba" />
           </Box>
+          )}
          <Box  mt="20px">
           <Flex flexDirection="column">
             <Box>
@@ -128,7 +131,7 @@ const visibleComments = showAllComments ? writtenComments : writtenComments.slic
               </Box>
             </Flex>
             <Box mt="5px">
-              <Text fontSize="12px" ml="10px">{com.writtenComment}</Text>
+              <Text fontSize="12px" ml="10px">{com.comment}</Text>
             </Box>
           </Flex>
         </Box>

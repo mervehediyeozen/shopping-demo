@@ -65,6 +65,7 @@ function MostSellers() {
       </Box>
   
         <Box mt="10px" ml="120px">
+          <Flex flexDirection="column" gap="20px">
          {sortingFavs.map((row, i) => (
           <Flex key={i}  gap="20px" > 
             {row.map((product , i) => (
@@ -90,6 +91,7 @@ function MostSellers() {
             )}
           </Flex>
          ))}
+         </Flex>
          {isLonger && !buttonClicked.hasMoreFav && (
           <Flex flexDirection="row" justifyContent="center" mt="16px">
           <Button variant="ghost" fontSize="14px" fontWeight="bold" color="#807b6e" _hover={{bg:"inherit" , textDecoration:"underline", textDecorationThickness:"from-font" , textDecorationColor:"#8f8979"}} onClick={showAll}>
@@ -116,6 +118,7 @@ function MostSellers() {
         </Flex>
       </Box>
         <Box mt="10px" ml="120px">
+          <Flex flexDirection="column" gap="20px">
          {sortingLessFavs.map((row, i) => (
           <Flex key={i}  gap="20px" > 
             {row.map((product , i) => (
@@ -141,6 +144,7 @@ function MostSellers() {
             )}
           </Flex>
          ))}
+         </Flex>
          {isLongerThan && !buttonClicked.hasLessFav && (
          <Flex flexDirection="row" justifyContent="center" mt="16px">
           <Button variant="ghost" fontSize="14px" fontWeight="bold" color="#807b6e" _hover={{bg:"inherit" , textDecoration:"underline", textDecorationThickness:"from-font" , textDecorationColor:"#8f8979"}} onClick={showAllLessFavs}>

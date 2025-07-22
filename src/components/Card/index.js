@@ -48,6 +48,9 @@ function Card({ product, locale }) {
               Superhost
             </Badge>
             </Box>
+            <Box>
+              <Text> {product.id}</Text>
+            </Box>
            <Box>
             <Box  display="flex" gap="4px"> 
               <Text fontSize="12px" color="#636357">• {product.fav} fav</Text>
