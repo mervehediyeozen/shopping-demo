@@ -16,13 +16,14 @@ const FilteredProductsPage = () => {
   const { filterProducts } = useSelector((state) => state.shop);
   const chunkedItems = sortProducts(filterProducts , 3)
   const isEmpty = chunkedItems.length === 0 ;
+  const isWoman  = kind === "woman";
   return (
     <Flex flexDirection="column" minH="100vh" justifyContent={isEmpty ? "" :"space-between"}>
         <Box zIndex="999">
             <FixedTop/>
         </Box>
-    <Box  mt={isEmpty ? "80px" :""} h={isEmpty ? "560px" :""}>
-        <Flex flexDirection="row" >
+    <Box  mt={isEmpty ? "80px" :"10px"}  h={isEmpty ? "560px" :""}>
+        <Flex flexDirection="row"  mt={isWoman ? "80px" :""}>
               <Box w={["15%" , "23%"]} >
             <MainPageSlide/>
         </Box>
