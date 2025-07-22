@@ -32,7 +32,7 @@ function Orders() {
         <Box  pl="35px">
           <Link to="/OrdersPage">
           <Heading fontWeight="normal" color="#59564a" size="sm">
-              Siparişlerim 
+              {messages[locale].myorders}
           </Heading>
           </Link>
         </Box>

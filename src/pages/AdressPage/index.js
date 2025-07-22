@@ -48,15 +48,15 @@ function AdressPage() {
       <Box ml="150px" width={["%80" , "%90"]}  >
         <Formik initialValues={initialValues} onSubmit={onSubmit}  validationSchema={validationSchema}>
          {({ handleBlur, handleChange, errors, values, touched }) => (
-                     <Box  border="1px" p="50px" mt="35px" borderRadius="15px" borderColor="blackAlpha.700"   bg="whiteAlpha.800" >
+                     <Box  border="1px" p="50px" mt="35px" borderRadius="15px" borderColor="#c9c6af"   bg="whiteAlpha.800" >
                       <Form>
-                        <Heading fontSize="32px" color="blackAlpha.800" textDecoration="underline" mt="10px" > Adres Oluştur</Heading>
+                        <Heading fontSize="32px" color="#545348" textDecoration="underline" fontWeight="medium" mt="10px" > Adres Oluştur</Heading>
                         <HStack gap="180px">
                         <FormControl mt="25px" isInvalid={errors.title && touched.title} >
-                          <FormLabel> Adres Başlığı</FormLabel>
+                          <FormLabel color="#4d4b42"> Adres Başlığı</FormLabel>
                           <Input
                             variant="outline"
-                            outlineColor="blackAlpha.700"
+                            outlineColor="#a3a089"
                             h="32px" 
                             w="220px"
                             id="title"
@@ -71,10 +71,10 @@ function AdressPage() {
         
                       
                         <FormControl mt="25px" isInvalid={errors.city && touched.city} >
-                          <FormLabel> Şehir</FormLabel>
+                          <FormLabel color="#4d4b42"> Şehir</FormLabel>
                           <Input
                             id="city"
-                            outlineColor="blackAlpha.700"
+                            outlineColor="#a3a089"
                             type="text"
                             onBlur={handleBlur}
                             name="city"
@@ -88,10 +88,10 @@ function AdressPage() {
                         </HStack>
                          <HStack gap="110px" >
                         <FormControl mt="25px" isInvalid={errors.openAddress && touched.openAddress} >
-                          <FormLabel> Tam Adres </FormLabel>
+                          <FormLabel color="#4d4b42"> Tam Adres </FormLabel>
                           <Textarea
                             id="openAddress"
-                            outlineColor="blackAlpha.700"
+                            outlineColor="#a3a089"
                             type="text"
                             onBlur={handleBlur}
                             name="openAddress"
@@ -103,11 +103,11 @@ function AdressPage() {
                           <ErrorMessage name="openAdress" component="div" style={{ color: 'black' }} />
                         </FormControl>
                         <FormControl mt="25px" isInvalid={errors.town && touched.town} > 
-                          <FormLabel> İlçe </FormLabel>
+                          <FormLabel color="#4d4b42"> İlçe </FormLabel>
                           <Input
                             id="town"
                             h="32px" 
-                            outlineColor="blackAlpha.700"
+                            outlineColor="#a3a089"
                             w="220px"
                             type="text"
                             onBlur={handleBlur}
@@ -122,11 +122,11 @@ function AdressPage() {
                  
                          <HStack gap="180px">
                         <FormControl mt="25px" isInvalid={errors.phone && touched.phone} >
-                          <FormLabel> Telefon </FormLabel>
+                          <FormLabel color="#4d4b42"> Telefon </FormLabel>
                           <Input
                             id="phone"
                             type="phone"
-                            outlineColor="blackAlpha.700" 
+                            outlineColor="#a3a089" 
                             h="32px" 
                             w="220px"
                             name="phone"
@@ -139,11 +139,11 @@ function AdressPage() {
                         </FormControl>
 
                         <FormControl mt="25px" isInvalid={errors.no && touched.no} >
-                          <FormLabel> No </FormLabel>
+                          <FormLabel color="#4d4b42"> No </FormLabel>
                           <Input
                             id="no"
                             type="number"
-                            outlineColor="blackAlpha.700" 
+                            outlineColor="#a3a089" 
                             h="32px" 
                             w="220px"
                             name="no"
@@ -162,7 +162,7 @@ function AdressPage() {
                           width="auto"
                           height="30px"
                           type="submit"
-                          outlineColor="blackAlpha.800"
+                          outlineColor="#a3a089"
                           color="blackAlpha.800"
                           _hover={{ bg: "softNav2.100"}}
                       
@@ -172,8 +172,8 @@ function AdressPage() {
                         </Box>
                  
                         {alert && (
-                                <Box bg="blackAlpha.200" mt="20px" border="1px" borderColor="black" borderRadius="30px">
-                          <Box  p="15px" color="black"  >
+                                <Box bg="#fcfcfa" mt="20px" border="1px" borderColor="black" borderRadius="30px">
+                          <Box  p="15px" color="#42413a"  >
                             <HStack  gap="20px">
                               <Box ml="10px">
                               <FontAwesomeIcon icon={faInfoCircle} size='xl' />

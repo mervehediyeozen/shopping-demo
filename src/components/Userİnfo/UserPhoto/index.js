@@ -75,8 +75,8 @@ function UserPhoto() {
   <>
  {address.map((adr, index) => (
   <Flex flexDirection="column">
-    <Box key={index} bg="#d6d1bf" borderRadius="7px"  width="85%" height="40px" border="1px" p="6px" mt="15px">
-      <Text fontSize="15px" textDecoration="underline" ml="5px" mt="2px" fontFamily="monospace">{adr.title}</Text>
+    <Box key={index}  width="85%" height="40px"p="6px" mt="15px">
+      <Text textDecoration="underline" mt="2px"  fontSize="14px"  fontWeight="light"  color="#7d7565" >{adr.title}</Text>
       </Box>
       </Flex>
     )) }

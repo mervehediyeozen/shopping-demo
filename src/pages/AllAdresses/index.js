@@ -34,9 +34,9 @@ function AllAdresses() {
             <Box width={["20%" , "18%"]}>
             <Company4/>
             </Box>
-            <Flex direction="column" width={["90%" , "90%"]}  mt="50px" ml="45px">
+            <Flex direction="column" width={["90%" , "90%"]}  mt="80px" ml="45px">
         <Box>
-              <Heading size="lg" color="#33322f" textDecoration="underline"  ml="70px">
+              <Heading size="lg" color="#4f4d42" textDecoration="underline"  ml="70px" fontWeight="light">
                 Adresleriniz
             </Heading> 
         {address.length === 0 && (
@@ -46,7 +46,7 @@ function AllAdresses() {
 {address.length > 0 && (
   address.map((adr, index) => (
   
-        <Flex  key={index} border="1px" borderColor="blackAlpha.700" p="5px" direction="row"   bg="#f2eee9"mb="20px">
+        <Flex  key={index} border="1px" borderColor="#c2bea7" borderRadius="10px" p="5px" direction="row"   bg="#fcfcf7"mb="20px">
         <Box mt="10px"  ml="10px" w="full" pb="15px">
       <Text fontSize="20px"  textDecor="underline">{adr.title}</Text>
       {!edit && ( 

@@ -46,7 +46,7 @@ function FavProducts() {
        <Box>
         <FixedTop/>
        </Box>
-       <Box  >
+       <Box mt="100px" >
        <Flex flexDirection="row"  bg="#e3e0cf">
        <Box  width={["90%" , "85%"]}  h={isFavsEmpty ? "570px" :"auto"}  pb="40px"maxH="570px"  borderTop="1px" borderColor="#878576" bg="#fcfcfc" borderBottom="1px"
        borderBottomColor="#ccc6af" >

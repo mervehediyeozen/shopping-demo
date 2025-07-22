@@ -126,6 +126,7 @@ export const LangContextProvider = ({ children }) => {
       "productsOfSomething":"products",
       "phone":"Phone",
       "socialMedia":"Social Media",
+      "myorders":"My orders",
 
 
       
@@ -251,6 +252,7 @@ export const LangContextProvider = ({ children }) => {
       "productsOfSomething":"ürünleri",
       "phone":"Telefon",
       "socialMedia":"Sosyal Medya",
+      "myorders":"Siparişlerim",
   
     
      },
@@ -376,6 +378,7 @@ export const LangContextProvider = ({ children }) => {
       "productsOfSomething":"produits",
       "phone":"Téléphone",
       "socialMedia":"Réseaux Sociaux",
+      "myorders":"Mes commandes",
     }, 
 
     es: {
@@ -505,6 +508,7 @@ export const LangContextProvider = ({ children }) => {
       "productsOfSomething":"productos",
       "phone":"Teléfono",
       "socialMedia":"Redes Sociales",
+      "myorders":"Mis órdenes",
 
       
     },

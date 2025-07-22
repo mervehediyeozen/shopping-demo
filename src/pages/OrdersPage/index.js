@@ -6,8 +6,9 @@ import { Link } from "react-router-dom";
 import Company4 from "../../components/Company4";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDollar,  faPlusSquare } from "@fortawesome/free-solid-svg-icons";
-
+import { useLang } from "../../Contexts/LanguageContext";
 function OrdersPage() {
+  const {messages , locale} = useLang();
   const orders = useSelector(state => state.shop.order);
   const [showMore , setShowMore] =useState(false);
   const handleShow = () => {
@@ -19,11 +20,11 @@ function OrdersPage() {
     <>
     <Flex direction="column" bg="#f7f4e9">
     <FixedTop/>
-    <Flex direction="row" justifyContent="space-between" mt="100px">
+    <Flex direction="row" justifyContent="space-between" mt="110px">
     <Box p={10} width={["95%" , "84%"]}  >
         <HStack justifyContent="space-between">
-        <Heading m={6} fontSize="28px" textDecoration="underline" color="blackAlpha.800">
-        Siparişlerim
+        <Heading m={6} fontSize="28px" textDecoration="underline" textDecorationColor="#999682" fontWeight="light" color="blackAlpha.800">
+        {messages[locale].myorders}
       </Heading>
       <HStack m={6}>
       <FontAwesomeIcon icon={faPlusSquare}  size='lg' color='gray'/>
@@ -36,7 +37,7 @@ function OrdersPage() {
       </HStack>
 
       {orders.length <= 0 ? (
-  <Text fontSize="18px" textAlign="center" color="gray.600">
+  <Text fontSize="18px" textAlign="center" color="gray.600" fontWeight="light">
     Henüz siparişiniz yok.
   </Text>
 ) : (
@@ -47,30 +48,32 @@ function OrdersPage() {
             borderColor="gray.300"
             borderRadius="md"
             p={5}
-            mb={6}
-            boxShadow="md"
+            
+           
             bg="white"
           >
 
-            <HStack justifyContent="space-between">
-            <Heading fontSize="20px" color="#45433d" m={2} >Sipariş #{orders.length - 1 - index}</Heading>
-           
-          
+    
             
-            <Text color="blackAlpha.700"><strong>Tarih:</strong> {new Date(order.date).toLocaleString()}</Text>
-            </HStack>
-            <Divider my={4} />
-            <Heading fontSize="18px" mb={2} textDecoration="underline">Ürünler</Heading>
-            <Flex direction="row" justifyContent="space-evenly" w="full" >
+            <Flex flexDirection="row" justifyContent="space-between">
+              <Box> 
+            <Heading fontSize="18px" mb={2} textDecoration="underline" color="#59584e">Ürünler</Heading>
+            </Box>
+            <Box>
+               <Text color="blackAlpha.700"><strong>Tarih:</strong> {new Date(order.date).toLocaleString()}</Text>
+               </Box>
+               </Flex>
+               <Divider my={4} />
+            <Flex direction="row" gap="10px" w="full" >
             {order.items && order.items.map((product, idx) => (
 
-              <Flex key={idx} direction="column" py={1} >
-                <Box p="10px"border="1px" borderColor="gray.500" boxShadow="xl" >
+              <Flex key={idx} direction="column" py={1} mt="10px" >
+                <Box p="10px"border="1px" borderColor="#999682"  h="auto" pb="4px">
                   <Image src={product.image}  width="175px" h="155px" />
-                <Text fontSize="16px">{product.title?.tr || product.title}</Text>
+                <Text fontSize="15px" mt="3px"color="#59584e">{product.title?.tr || product.title}</Text>
                 <HStack justifyContent="flex-end">
-                    <FontAwesomeIcon icon={faDollar} size='sm'/>
-                <Text fontSize="13px" pt="10px" textDecoration="underline" > {product.price} TL</Text>
+                    
+                <Text fontSize="13px" pt="3px" textDecoration="underline" color="#76916e" > {product.price}$</Text>
                 </HStack>
                 </Box>
 
@@ -86,8 +89,8 @@ function OrdersPage() {
             </Button>
             {!showMore && (
                 <>
-                 <Text><strong>Adres:</strong> {order.addresT}</Text>
-                              <Text><strong>Tarih:</strong> {new Date(order.date).toLocaleString()}</Text>
+                 <Text mt="10px" color="#59584e"><strong>Adres:</strong> {order.addresT}</Text>
+                              <Text color="#59584e"><strong>Tarih:</strong> {new Date(order.date).toLocaleString()}</Text>
             <Link to={`/orders/${order.id}`}>
           <Text mt={3} fontSize="15px" color="teal.500" textDecoration="underline" textAlign="end">
             Sayfasına git
