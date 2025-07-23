@@ -1,7 +1,6 @@
 # E-Ticaret Platformu"
 ## Çok dilli destekli, sepet sistemli gelişmiş e-ticaret web uygulaması.
 ### Kullanılan teknolojiler : "React, Redux, Context API, Chakra UI"
-### `npm run build`
 
 ## CANLI İZLEME İÇİN -- "https://shopping-demo-wheat.vercel.app/Main"
 
